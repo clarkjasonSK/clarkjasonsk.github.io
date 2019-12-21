@@ -16,7 +16,9 @@
 }
 
 @-moz-document url-prefix() {
-    html,body{overflow-y: hidden !important;}
+    html,body{
+		scrollbar-width: none;
+    }
 }
 
 *{
@@ -37,13 +39,15 @@ body{
 .topBlur{
 	width: 100vw;
 	height: 100vh;
-	/*background: linear-gradient(to top, rgba(210,77,87,0.2),  rgb(210,77,87));*/
+	/*background: linear-gradient(to top, rgba(210,77,87,0),  rgb(210,77,87));*/
+	/*background: linear-gradient(to top, rgba(138,7,7,0.1),  rgba(138,7,7,.9));*/
 	background: linear-gradient(to top, rgba(52,46,46,0.2),  rgb(52,46,46));
 }
 .bottomBlur{
 	width: 100vw;
 	height: 100vh;
-	/*background: linear-gradient(to bottom, rgba(210,77,87,0.2),  rgb(210,77,87));*/
+	/*background: linear-gradient(to bottom, rgba(210,77,87,0),  rgb(210,77,87));*/
+	/*background: linear-gradient(to bottom, rgba(138,7,7,0.1),  rgba(138,7,7,.9));*/
 	background: linear-gradient(to bottom, rgba(52,46,46,0.2),  rgb(52,46,46));
 }
 
@@ -62,30 +66,46 @@ header{
 
 #nav_bar{
 	width: 100vw;
-	font-family: adventpro;
-	color: white;
-	font-size: 2.5vw;
 	display: flex;
 	justify-content: space-evenly;
 }
-.skill{
-	margin-left: 15px;
+a{
+	font-family: adventpro;
+	color: white;
+	font-size: 2vw;
+	text-decoration: none;
 }
 
 #headerText{
 	width: 100vw;
-	height: 100vh;
 
 	font-family: montserrat;
 	font-size: 13vw;
 	color: white;
 	text-align: center;
-	vertical-align: middle;
+	padding-top: 30vh; 
 }
 
 .section{
-	width: 100vw; height: 420px;
+	color: white;
+	width: 100vw;
 	/*background-color: rgb(210,77,87);*/
 	background-color: rgb(52,46,46);
+	font-size: 1vw;
 
+}
+
+#pro_game{
+	 height: 60vh;
+	/*background-color: red;*/
+}
+#art_3d{
+	 height: 100vh;
+	background-color: orange;
+}
+#writing{
+	background-color: yellow;
+}
+#about{
+	background-color: green;
 }
