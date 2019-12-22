@@ -35,23 +35,36 @@ body{
 	color: rgb(138,7,7);
 	
 }
-
-.topBlur{
+.bottomBlurBlack{
 	width: 100vw;
 	height: 100vh;
-	/*background: linear-gradient(to top, rgba(210,77,87,0),  rgb(210,77,87));*/
-	/*background: linear-gradient(to top, rgba(138,7,7,0.1),  rgba(138,7,7,.9));*/
-	background: linear-gradient(to top, rgba(52,46,46,0.2),  rgb(52,46,46));
-}
-.bottomBlur{
-	width: 100vw;
-	height: 100vh;
-	/*background: linear-gradient(to bottom, rgba(210,77,87,0),  rgb(210,77,87));*/
-	/*background: linear-gradient(to bottom, rgba(138,7,7,0.1),  rgba(138,7,7,.9));*/
 	background: linear-gradient(to bottom, rgba(52,46,46,0.2),  rgb(52,46,46));
 }
+.topBlurBlack{
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(to top, rgba(52,46,46,0.2),  rgb(52,46,46));
+}
 
-header, #cardo{
+
+.bottomBlurRed{
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(to bottom, rgba(138,7,7,0.1),  rgb(138,7,7));
+}
+.topBlurRed{
+	width: 100vw;
+	height: 90vh;
+	background: linear-gradient(to top, rgba(138,7,7,0.1),  rgb(138,7,7));
+}
+
+.bottomBlurPink{
+	width: 100vw;
+	height: 90vh;
+	background: linear-gradient(to bottom, rgba(210,77,87,0),  rgb(210,77,87));
+}
+
+header, #art_3d{
 	width: 100vw;
   	background-attachment: fixed;
 	background-position: center;
@@ -61,21 +74,23 @@ header, #cardo{
 
 header{
 	height: 100vh;
-	background-image: url("../imgs/me2.jpg");
+	background-image: url("../imgs/me.jpg");
 }
 
-#nav_bar{
+/*#nav_bar{
 	width: 100vw;
 	display: flex;
 	justify-content: space-evenly;
 }
 a{
+	width: 25vw;
 	font-family: adventpro;
 	color: white;
 	font-size: 2vw;
 	text-decoration: none;
+	text-align: center;
 }
-
+*/
 #headerText{
 	width: 100vw;
 
@@ -94,18 +109,26 @@ a{
 	font-size: 1vw;
 
 }
+.sectionHeader{
+	font-family: adventpro;
+	font-size: 4.5vw;
+	text-align: center;
+}
 
 #pro_game{
 	 height: 60vh;
 	/*background-color: red;*/
 }
 #art_3d{
-	 height: 100vh;
-	background-color: orange;
+	height: 100vh;
+	/*background-color: order: ange;*/
+	background-image: url("../imgs/arcanine.jpg");
 }
 #writing{
-	background-color: yellow;
+	height: 60vh;
+	background-color: rgb(138,7,7);
 }
 #about{
-	background-color: green;
+	height: 90vh;
+	background-image: url("../imgs/me2.jpg");
 }
