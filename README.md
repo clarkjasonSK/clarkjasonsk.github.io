@@ -1,2 +1,2 @@
-# clarkjasonsk.github.io
-portfolio
+# Personal Website
+https://clarkjasonsk.github.io/
